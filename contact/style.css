@@ -10,7 +10,7 @@
   --primary-color: #0a1f3c;
   --secondary-color: #fff;
   --accent1-color: rgb(72, 69, 247);
-  --accent2-color: rgb(237, 142, 142);
+  --accent2-color: aquamarine;
 }
 
 body {
@@ -54,7 +54,7 @@ body {
 }
 
 .nav-links a:hover {
-  background-color: var(--accent1-color);
+  background-color: var(--accent2-color);
   color: #000;
 }
 .container {
@@ -73,7 +73,7 @@ body {
   width: 50%; 
 }
 .contact-left {
-  background-color: rgb(255, 72, 72); 
+  background-color: var(--accent1-color); 
   color: white;
   position: absolute;
   left: -8%;
