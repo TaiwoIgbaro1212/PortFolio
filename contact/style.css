@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;
+}
+
+:root {
+  --primary-color: #0a1f3c;
+  --secondary-color: #fff;
+  --accent1-color: rgb(72, 69, 247);
+  --accent2-color: rgb(237, 142, 142);
+}
+
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; */
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: 'Open Sans', sans-serif;
+}
+/* Navbar styles */
+.navbar {
+  color: #fff;
+  height: var(--navbar-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4%;
+  margin-top: 1em;
+}
+
+.logo {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.3em 1em;
+  border-radius: 0.5em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: var(--accent1-color);
+  color: #000;
+}
+.container {
+  position: relative;
+  width: 75%;
+  height: 85vh;
+  margin-inline: auto;
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--secondary-color);
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 2em;
+}
+
+.contact-left, .contact-right {
+  width: 50%; 
+}
+.contact-left {
+  background-color: rgb(255, 72, 72); 
+  color: white;
+  position: absolute;
+  left: -8%;
+  height: 80%;
+  top: 0;
+  bottom: 0;
+  margin-block: auto;
+  padding: 2em;
+  border: 3px solid blue; 
+}
+  .contact-right h1 {
+  font-size: 36px; 
+  padding: 40px; 
+  border: 3px solid var(--accent1-color);
+}
+.contact-left p, .contact-right p {
+  font-size: 18px; 
+  padding: 20px; 
+}
+.contact-right{
+  padding-block: 5em;
+}
+.contact-right h1{
+  font-size: 36px; 
+  padding: 30px;
+  color: var(--primary-color);
+}
+.contact-right label{
+  color: var(--primary-color);
+  font-size: 18px;
+  padding: 20px;
+}
+.contact-right input, .contact-right textarea {
+  width: calc(100% - 80px);
+  margin: 20px; 
+  padding: 10px; 
+}
+.contact-right button {
+  width: calc(100% -80px);
+  margin: 20px; 
+  padding: 10px; 
+}
+.address{
+  margin-bottom: 1.5em;
+}
+.contact-left h1 {
+  margin-bottom: 2em;
+}
+button{
+  background-color: var(--accent1-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}

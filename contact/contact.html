@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="/contact/style.css" />
+  </head>
+  <body>
+      <!-- Portfolio Navbar -->
+    <div class="navbar">
+      <div class="logo">
+        <h2>TeeClassic</h2>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="/contact/contact.html">Contact Me</a></li>
+          <li><a href="#project">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Portfolio Navbar -->
+    <div class="container">
+      <div class="contact-left">
+        <h1>Contact Us</h1>
+        <div class="address">
+          <span class="material-symbols-outlined"> location_on </span>
+          87, Itire road, beside Wema bank, Obele bus stop, Lawanson, Surulere
+        </div>
+
+        <div class="address">
+          <span class="material-symbols-outlined"> email </span>
+          igbaro.paul@gmail.com
+        </div>
+        <div class="address">
+          <span class="material-symbols-outlined"> phone </span>
+          +2348131160664</div>
+      </div>
+
+      <div class="contact-right">
+        <h1>Get in Touch</h1>
+        <form id="contactForm">
+          <div class="name">
+            <label for="name">Name</label>
+            <input  id="name" type="text" name="name" placeholder="Name" required />
+          </div>
+          <div class="email">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="message">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Message" required></textarea>
+          </div>
+          <button type="submit" name="submit" class="button">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="/contact/contact.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+</html>
