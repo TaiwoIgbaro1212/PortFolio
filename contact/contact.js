@@ -34,7 +34,7 @@ contactForm.addEventListener("submit", async function (event) {
   }
 
   try {
-    const response = await fetch("http://localhost:5000/contacts", {
+    const response = await fetch("https://teeclassic.onrender.com/contacts", {
       method: "POST",
       body: JSON.stringify({
         name: name,
